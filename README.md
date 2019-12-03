@@ -1,10 +1,3 @@
----
-layout: post
-mathjax: false
-title: 改映射操作流程
-categories: [Input Method]
-excerpt: 从 QWERTY 布局改到其它布局时的五笔码表处理办法
----
 
 # 五笔的设计与英文键盘无关
 
