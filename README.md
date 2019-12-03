@@ -53,3 +53,6 @@ sh rime.sh
 - 生成新的 YAML 表在「qwerty2other/new-tables」中，取出，替换掉「fcitx-rime」包中的旧表
 - 在「fcitx-rime」包下的「linux」目录中，将「rime.sh」改为适合你发行版的 install 命令，然后以普通用户权限执行
 - 重启计算机，在设置，区域与语言中添加「RIME」。
+
+
+建议以 [98wubi-unicode](https://github.com/yanhuacuo/98wubi-unicode) 发布的字体为准。
