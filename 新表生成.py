@@ -250,6 +250,7 @@ for list_n in my_list:
                 break
         u_conf.close()
         u_table.close()
+        # 超集表生成
         # 写正文
         u_table = open('./TEXT/new_u.txt', "a", encoding='utf-8')
         u_cont = open('./TEXT/U.txt', "r", encoding='utf-8')
@@ -277,4 +278,3 @@ for list_n in my_list:
 cur.close()
 con.close()
 print("YAML表制作成功！")
-# 超集表生成
