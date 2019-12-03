@@ -55,4 +55,6 @@ sh rime.sh
 - 重启计算机，在设置，区域与语言中添加「RIME」。
 
 
+# 超集字体支持
+
 建议以 [98wubi-unicode](https://github.com/yanhuacuo/98wubi-unicode) 发布的字体为准。
