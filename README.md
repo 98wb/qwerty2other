@@ -9,7 +9,7 @@
 
 这个脚本 [映射数据.py](https://github.com/98wb/qwerty2other/blob/master/%E6%98%A0%E5%B0%84%E6%95%B0%E6%8D%AE.py) 可以建立「QWERTY」与其它键面布局的键名对应关系：
 
-QWERTY 是 [示例数据](https://github.com/98wb/qwerty2other/blob/master/base/MAPPING.txt) 的「第一列」，Dvorak 是 [示例数据](https://github.com/98wb/qwerty2other/blob/master/base/MAPPING.txt) 的「第二列」。
+QWERTY 是 [示例数据](https://github.com/98wb/qwerty2other/blob/master/base/MAPPING.txt) 的「第一列」，Norman layout 是 [示例数据](https://github.com/98wb/qwerty2other/blob/master/base/MAPPING.txt) 的「第二列」--映射关系来自小妖。
 
 运行该脚本之前，需要在 [示例数据](https://github.com/98wb/qwerty2other/blob/master/base/MAPPING.txt) 中改好你自己的映射。
 
@@ -58,3 +58,8 @@ sh rime.sh
 # 超集字体支持
 
 建议以 [98wubi-unicode](https://github.com/yanhuacuo/98wubi-unicode) 发布的字体为准。
+
+
+# 示例
+
+这个存档中，「小妖的配置包」，就是从「qwerty」到「norman layout」的转换示例。已配置好了「dict」码表和「schema」定义声明，可以直接使用。
