@@ -60,6 +60,36 @@ sh rime.sh
 建议以 [98wubi-unicode](https://github.com/yanhuacuo/98wubi-unicode) 发布的字体为准。
 
 
+# 符号补充
+
+非主流键盘布局，可能会涉及到「标点符号」被排在了正常的 「QWERTY」 键名「a-z」上。为添加符号支持，需要额外在「schema」文件中声明之：
+
+比如，仔细观察，可知「alphabet」的定义里，添加了「分号」作为「编码」，嗯，还有「z」。
+
+wubi98_ci.schema.yaml
+
+`````
+speller:
+  alphabet: z;yxwvutsrqponmlkjihgfedcba
+  auto_select: true
+  auto_clear: max_length
+  delimiter: "`"
+  max_code_length: 4
+`````
+
 # 示例
 
 这个存档中，「小妖的配置包」，就是从「qwerty」到「norman layout」的转换示例。已配置好了「dict」码表和「schema」定义声明，可以直接使用。
+
+在这个示例中，因为「小妖」的「MAPPING.txt」里显示 「;→p」 ，所以在 schema 中，添加了一行「alphabet」来声明哪些键是用作「编码符」的。
+
+
+`````
+speller:
+  alphabet: z;yxwvutsrqponmlkjihgfedcba
+  auto_select: true
+  auto_clear: max_length
+  delimiter: "`"
+  max_code_length: 4
+`````
+
